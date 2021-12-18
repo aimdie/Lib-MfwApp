@@ -1,0 +1,17 @@
+#忽略该项目所有文件夹中，的后缀文件或目录。
+*.iml
+*.log
+*.hprof
+
+#忽略该项目所有文件夹中，的指定文件或目录。
+.gradle
+.idea
+.DS_Store
+.externalNativeBuild
+.cxx
+local.properties
+
+#忽略该目录和子目录的“***”文件
+/build
+*/build
+/captures
